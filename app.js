@@ -25,7 +25,7 @@ if (signal === "answer") {
             console.log(`Good for you for deciding to fight! You used the unbeatable blaster5000 and vanquished the alien life force. The threat was elimniated and you saved the crew. You Win!`);
         }
     } else {
-        console.log(`You chose to go down. You follow a corridor until you find the crew. However, you can only take back people under 40.`);
+        console.log(`You chose to go down. You follow a corridor until you find the crew. However, you can only take back people under 40 and are either navigators or engineers.`);
         const crew = [
             {
                 name: "John",
